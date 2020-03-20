@@ -1,0 +1,37 @@
+{
+  "name": "AnyBuildGulpTest",
+  "version": "0.0.1",
+  "description": "Synthetic test repo using Gulp",
+  "homepage": "https://github.com/microsoft/AnyBuildGulpTest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/AnyBuildGulpTest.git"
+  },
+  "author": "Microsoft Corporation",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/microsoft/AnyBuildGulpTest/issues"
+  },
+  "keywords": [
+    "AnyBuild"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-mocha": "^7.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^7.1.1",
+    "pump": "^3.0.0",
+    "ts-node": "^8.7.0",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  },
+  "license": "MIT"
+}
