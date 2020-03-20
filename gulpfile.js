@@ -60,7 +60,7 @@ gulp.task('tslint', () => {
       .pipe(tslint.report())
 });
 
-let numTestSuites = 10
+let numTestSuites = 50
 
 let buildTestSeries = []
 
