@@ -5,6 +5,8 @@
 
 "use strict";
 
+const EventEmitter = require('events');
+
 // Base Gulp library.
 var gulp = require('gulp');
 
@@ -61,6 +63,7 @@ gulp.task('tslint', () => {
 });
 
 let numTestSuites = 50
+EventEmitter.defaultMaxListeners = numTestSuites + 10;
 
 let buildTestSeries = []
 
