@@ -20,5 +20,9 @@ jobs:
     - run: npm install
     - run: npm install -g gulp --force
     - run: gulp
-    - run: echo TESTTEST > test.log
-    - run: type test.log
+    - run: echo test > test.log
+
+    - name: write log contents
+      run: |
+        dir *.log
+        type test.log
