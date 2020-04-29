@@ -21,10 +21,10 @@ jobs:
     #  with:
     #    node-version: ${{ matrix.node-version }}
 
-    - run: npm install
+    # - run: npm install
     - run: npm install -g gulp --force
     - run: gulp
-    
+
     - name: write log contents
       run: |
         for %%f in (*.log) do (
@@ -32,3 +32,4 @@ jobs:
           type "%%~nf.log"
           echo. 
         )
+        exit 0
