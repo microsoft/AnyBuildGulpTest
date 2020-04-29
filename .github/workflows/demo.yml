@@ -24,4 +24,4 @@ jobs:
 
     - name: write log contents
       run: |
-        for %%f in (*.log) do (echo "============== %%~nf.log ==============" & type "%%~nf.log" & echo.)
+        for %f in (*.log) do (echo "============== %~nf.log ==============" & type "%~nf.log" & echo.)
