@@ -25,4 +25,4 @@ jobs:
     - name: write log contents
       run: |
         dir *.log
-        type test.log
+        echo ================= test.log ================= & type test.log
