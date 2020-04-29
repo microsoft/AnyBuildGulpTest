@@ -21,7 +21,4 @@ jobs:
     - run: npm install -g gulp --force
     - run: gulp
     - run: echo test > test.log
-
-    - name: write log contents
-      run: |
-        for %f in (*.log) do (echo "============== %~nf.log ==============" & type "%~nf.log" & echo.)
+    - run: type test.log
