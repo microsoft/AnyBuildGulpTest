@@ -5,7 +5,7 @@ name: Demo
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, dev/dmgonch/demo-action]
   pull_request:
     branches: [ master ]
 
