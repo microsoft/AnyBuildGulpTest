@@ -20,7 +20,7 @@ jobs:
     - run: npm install
     - run: npm install -g gulp --force
     - run: gulp
-    - run: echo test > test.log
+    - run: echo TESTTEST > test.log
 
     - name: write log contents
       run: |
