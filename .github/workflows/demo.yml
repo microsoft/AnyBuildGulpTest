@@ -26,7 +26,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - run: npm install -g gulp
-    - run: %APPDATA%\npm\gulp.cmd
+    - run: gulp
         # npm ci
         # npm run build --if-present
         # npm test
