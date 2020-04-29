@@ -24,13 +24,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Use Node.js ${{ matrix.node-version }}
-      run: |
-        dir
-        npm install -g gulp
-        where gulp
-        dir %APPDATA%\npm\gulp.cmd
-        %APPDATA%\npm\gulp.cmd
+
+    - run: npm install -g gulp
+    - run: %APPDATA%\npm\gulp.cmd
         # npm ci
         # npm run build --if-present
         # npm test
